@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.hover-underline:hover {
+    text-decoration: underline !important;
+}
+
+.phot{
+    margin-left: 130px;
+    height: 410px;
+    width: auto;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 50px;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.6; 
+}
+
+#home {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#home .z-1 {
+  z-index: 1;
+}
+
+#home h1, 
+#home ul li, 
+#home a {
+  color: white;
+}
+
+.mkskill {
+    background-color: rgb(81, 81, 98);
+}
+
+.mysk {
+    font-size: xx-large;
+    color: rgb(73, 19, 223);
+}
+
+.myskl {
+    color: white;
+    margin-bottom: 100px;
+}
+
+.mys img {
+    width: 80px;
+    height: 80px;
+}
+
+.mycrea {
+    background-color: rgb(67, 67, 122);
+}
+.mys p{
+  color: white;
+}
+.mycr {
+    color: white;
+    font-size: xx-large;
+}
+
+.myc {
+    color: white;
+}
+.cod{
+    padding-left: 160px;
+    padding-bottom: 30px;
+}
+.td{
+    padding: 20px;
+}
+.dr{
+  padding-left: 150px;
+}
+.qu{
+  padding-right: 150px;
+}
+.tu{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+.cun{
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.mysu img {
+  width: 512px;
+  height: 300px;
+}
+.mysu {
+  color: white
+}
+.getm {
+    background-color: #f5f5f5;
+}
+.cod a {
+  margin-left: 5px;
+  text-decoration: none;     /* No underline by default */
+  color: blanchedalmond;     /* Keep your color */
+  transition: text-decoration 0.3s ease;
+}
+
+.cod a:hover {
+  text-decoration: underline;  /* Underline on hover */
+}
+
+.contact-item .icon i {
+    font-size: 120px;
+}
+.contact-item:nth-child(1) .icon {
+    color: red;
+}
+
+.contact-item:nth-child(2) .icon {
+    color: blue;
+}
+
+.contact-item:nth-child(3) .icon {
+    color: green;
+}
+
+.contact-item .text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-sectio {
+    background-color: #eee;
+}
+.contact-section {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #eee;;
+  border-radius: 12px;
+  font-family: sans-serif;
+}
+
+.contact-section h2 {
+  font-size: 59px;
+  margin-bottom: 20px;
+}
+.contact-section p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form-input {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  min-width: 250px;
+}
+.full-width {
+  width: 100%;
+}
+
+.form-textarea {
+  width: 100%;
+  height: 180px;
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+.send-btn {
+  padding: 12px 28px;
+  background-color: #d61a1a;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+  transition: background-color 0.3s ease;
+}
+
+.send-btn:hover {
+  background-color: #0056b3;
+}
+
+.form-input, .form-textarea {
+    min-width: 250px;
+}
+
+.send-btn {
+    background-color: #d61a1a;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.send-btn:hover {
+    background-color: #0056b3;
+}
+.footer {
+  background-color: #f5f5f5;
+  padding: 50px 20px 30px 20px;
+  font-family: sans-serif;
+}
+
+.arrow-down {
+    font-size: 2.5rem;
+    color: #dc3545;
+    animation: bounce 2s infinite;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(10px);
+    }
+    60% {
+        transform: translateY(5px);
+    }
+}
+
+.home-section {
+    min-height: 100vh;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+    .phot {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .contact-item .icon i {
+        font-size: 80px;
+    }
+    .contact-section h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mys, .mysu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mys img, .mysu img {
+        max-width: 100%;
+    }
+    .cod {
+        padding-left: 0;
+        text-align: center;
+    }
+}
