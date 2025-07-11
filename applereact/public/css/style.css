@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body{
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+}
+.headerwrapper{
+    background-color: black;
+    color: white;
+    font-weight: 200;
+    font-size: 0.75em;
+}
+.headerwrapper ul{
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+.internalwrapper{
+    width: 980px;  
+    padding: 0 10px;
+    margin: 0 auto; 
+}
+.footerwrapper{
+    width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.headerwrapper .linkswrapper li a{
+    text-decoration: none;
+    color: white;
+}
+.headerwrapper ul{
+    list-style: none;
+}
+.headerwrapper .linkswrapper li{
+    display: inline-block;
+    padding: 14px 0 8px;
+    height: 25px;
+    opacity: 0.8;
+}
+.headerwrapper .linkswrapper li:hover{
+    opacity: 1;
+}
+.linkswrapper li img{
+    width: 18px;
+    height: auto;
+    display: block;
+}
+.headerwrapper .linkswrapper li.applelink{
+    padding: 12px 0 10px;
+}
+.headerwrapper .linkswrapper li.searchlink{
+    padding: 14px 0 8px;
+}
+.headerwrapper .linkswrapper li.cartlink{
+    padding: 12px 0 10px;
+}
+.footerwrapper{
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    font-size: 0.65em;
+}
+.uppertextcontainer{
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding: 17px 0 20px;
+}
+.uppertextcontainer a{
+    text-decoration: none;
+    color: #515154;
+}
+.uppertextcontainer a:hover{
+    text-decoration: underline;
+}
+.footerlinkwrapper{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.footerwrapper ul{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.footerwrapper ul li{
+    pad: 5px 0;
+    font-size: 0.9em;
+}
+.footerlinkwrapper a{
+    color:  #51515f;
+    text-decoration: none;
+}
+.footerlinkwrapper a:hover{
+    text-decoration: underline;
+}
+.footerlinkwrapper h3{
+    font-size: 12px;
+    font-weight: 600;
+}
+.myapplewrapper{
+    border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.copywritewrapper{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 10px 0 20px;
+}
+.footerlinkterm ul li{
+    display: inline-block;
+    padding: 0 5px;
+    border-right: 2px solid #ccc;
+}
+.footerlinkterm ul li:last-child{
+    border-right: 0px;
+}
+.footerlinkterm ul li a {
+    text-decoration: none;
+    columns: #515154;
+}
+.footerlinkterm ul li a:hover{
+    text-decoration: underline;
+}
+.footercountry{
+    display: inline-block;
+}
+.flagwrapper{
+    display: inline-block;
+    vertical-align: middle;
+}
+.footercountryname{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.mainhighlight{
+    background-color: #fafafa;
+    text-align: center;
+    padding: 25px 0;
+}
+.linkswrapper ul{
+    list-style: none;
+}
+.model{
+    font-size: 0.85em;
+}
+.prroducttitle{
+    font-weight: 700;
+    font-size: 28px;
+}
+.briefdescription{
+    font-size: 28px;
+}
+.linkswrapper{
+    padding: 15px 0;
+}
+.linkswrapper ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+.linkswrapper ul li a{
+    color: #06c;
+    text-decoration: none;
+}
+.linkswrapper ul li a:hover{
+    columns: #000;
+    text-decoration: underline;
+}
+.linkswrapper ul li a:after{
+    font-family: "fontawesome";
+    font-weight: 900;
+    content: "\f105"; 
+    padding-left: 10px;
+}
+.secondmainhighlight{
+    background-image: url("../images/iphone11-pro-bg.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 65px 20px;
+    columns: #fff;
+}
+.prroducttitlewr{
+    color: white;
+    font-weight: 600;
+    font-size: 56px;
+}
+.pricewrapper{
+    color: #86868b;
+
+}
+.briefdescriptionw{
+    font-size: 26px;
+    color: white;
+    padding: 10px 0;
+}
+.mainhighlighwt{
+    background-image: url("../images/iphone11-bg.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 65px 20px;
+    columns: #fff;
+}
+.forth{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.lef{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 54px;
+}
+.forth .lef{
+    background-image: url("../images/watch-series-5.jpg");
+}
+.righ{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 54px;
+}
+.forth .righ{
+    background-image: url("../images/apple-card.jpg");
+}
+.briefdescriptionn{
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.fifth{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.fifth .lef{
+    background-image: url("../images/apple-tv-background.jpg");
+}
+.fifth .righ{
+    background-image: url("../images/air-pods.jpg");
+    color: #fff;
+    background-size: initial;
+    background-color: #000;
+    background-position: bottom;
+}
+.tvshowlogo{
+    padding: 180px 0 200px;
+}
+.watchwrapper{
+    text-decoration: none;
+    font-size: 0.85em;
+}
+.watchwrapper a:after{
+    font-family: "fontawesome";
+    font-weight: 900;
+    content: "\f144";
+    padding-left: 15px;
+}
+.sixth{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.sixth .lef{
+    background-image: url("../images/macbook-pro.jpg");
+    background-size: initial;
+    background-color: #fafafa;
+    background-position: bottom;
+}
+.sixth .righ{
+    background-image: url("../images/new-ipad.jpg");
+}
