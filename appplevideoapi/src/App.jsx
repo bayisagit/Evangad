@@ -7,6 +7,7 @@ import Section3 from '../component/Section3'
 import Section4 from '../component/Section4'
 import Section5 from '../component/Section5'
 import Section6 from '../component/Section6'
+import Youtube from '../component/youtube/Youtube'
 
 function App() {
   return (
@@ -18,9 +19,12 @@ function App() {
       <Section4/>
       <Section5/>
       <Section6/>
+      <Youtube/>
       <Footer/>
     </div>
   )
 }
 
 export default App;
+
+
