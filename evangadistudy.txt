@@ -1,0 +1,9 @@
+body-parser is a Node.js middleware module that parses the body of incoming HTTP requests and makes the data available on req.body.
+
+In simple terms:
+
+It helps your Express server understand and read data that is sent from a form (HTML) or frontend app (like React, Postman, fetch, etc.).
+
+
+
+react is a single page application!

@@ -8,7 +8,7 @@ function Header() {
               <a href="#"><img src="/images/logo.png" alt="apple" /></a>
             </li>
             <li><a href="#">mac</a></li>
-            <li><a href="#">iphone</a></li>
+            <li><a href="iphone">iphone</a></li>
             <li><a href="#">i-pad</a></li>
             <li><a href="#">watch</a></li>
             <li><a href="#">tv</a></li>
