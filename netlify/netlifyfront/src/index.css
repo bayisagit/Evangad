@@ -1,0 +1,10 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #121212 !important; /* or any color you want */
+  margin: 0;
+  padding: 0;
+}

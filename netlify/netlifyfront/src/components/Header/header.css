@@ -1,0 +1,60 @@
+.header_outer_container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Make sure the header is on top of the content */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent header */
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+.header_left li {
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+.header_left li:hover {
+    color: #e50914; /* Netflix red */
+}
+.header_left img {
+    max-height: 40px;
+}
+.header_right ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+.header_right li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.header_right li:hover {
+    color: #e50914;
+}
+@media (max-width: 768px) {
+    .header_left li:nth-child(n+3) {
+      display: none; /* Hide less important menu items */
+    }
+  
+    .header_right li {
+      font-size: 20px;
+    }
+  
+    .header_left img {
+      width: 80px;
+    }
+}

@@ -1,0 +1,110 @@
+/* Base Footer Styles */
+.footer {
+    background-color: #111;
+    color: gray;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer__container {
+    width: 60%;
+    margin: 48px 0;
+  }
+  
+  .footer__icons {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  .footer__nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+  }
+  
+  .footer__nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 7rem;
+  }
+  
+  .footer__nav ul li {
+    cursor: pointer;
+  }
+  
+  .footer__serviceCode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #fff 1px solid;
+    width: 10vw;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .footer__copyWrite {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Styles */
+  
+  /* For tablets and smaller screens */
+  @media (max-width: 768px) {
+    .footer__container {
+      width: 80%;
+    }
+  
+    .footer__nav {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer__nav ul {
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+      height: auto;
+    }
+  
+    .footer__serviceCode {
+      width: 25vw;
+    }
+  
+    .footer__icons {
+      justify-content: center;
+      gap: 15px;
+    }
+  }
+  
+  /* For mobile screens */
+  @media (max-width: 480px) {
+    .footer__container {
+      width: 90%;
+    }
+  
+    .footer__nav ul {
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 10px;
+    }
+  
+    .footer__serviceCode {
+      width: 50vw;
+      font-size: 10px;
+    }
+  
+    .footer__copyWrite {
+      font-size: 10px;
+      text-align: center;
+    }
+  
+    .footer__icons {
+      gap: 10px;
+    }
+  }
